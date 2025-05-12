@@ -6,7 +6,9 @@ import Footer from "../Footer/Footer";
 const Layout = () => {
     return (
         <div className="">
-            <Navbar></Navbar>
+            <div className="h-16">
+            <Navbar className="h-16"></Navbar>
+            </div>
             <div className="min-h-[420px] py-12 container mx-auto px-12">
                 <Outlet></Outlet>
             </div>

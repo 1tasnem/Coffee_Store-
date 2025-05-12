@@ -4,16 +4,16 @@ import { Link, NavLink } from 'react-router';
 const Categories = ({categories}) => {
     return (
         <div role="tablist" className="tabs tabs-box flex justify-center gap-60 font-bold">
-    {categories.map((category) => (
+    {categories.map((category => (
   <NavLink
     key={category.category}
-    to="/Categories"
+    to={`/category/${category.category}`}
     role="tab"
-    className="tab"
+    className={({isActive})=>` text-2xl font-thin ${isActive?'tab-active' : '' }`}
   >
     {category.category}
   </NavLink>
-))}
+)))}
 </div>
     );
 };
