@@ -30,7 +30,7 @@ const Coffe = () => {
       <>
       <div className='flex justify-between items-center my-12'>
         <div>
-          <h1 className='text-3xl font-thin'>Soet Coffee by Popularity & Rating</h1>
+          <h1 className='text-3xl font-thin'>Sort Coffee by Popularity & Rating</h1>
         
         </div>
         <div className='space-x-4'>

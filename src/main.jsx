@@ -5,15 +5,18 @@ import App from './App.jsx'
 import Home from './Components/Pages/Home.jsx'
 import Coffe from './Components/Pages/Coffe.jsx'
 import Dashboard from './Components/Pages/Dashboard.jsx'
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
 import Layout from './Components/Layout/Layout.jsx';
 import CoffeeCard from './Components/CoffeeCard/CoffeeCard.jsx'
+import CoffeeDetails from './Components/Pages/CoffeeDetails.jsx'
 
 const router = createBrowserRouter([
   {
+    
     path: "/",//index:true;
     element: <Layout></Layout>,
     children:[
@@ -48,6 +51,12 @@ const router = createBrowserRouter([
        {
         path:"/dashboard",
         element:<Dashboard></Dashboard>,
+        
+      },
+      {
+        path:"/coffe/:id",
+        element:<CoffeeDetails></CoffeeDetails>,
+        loader:() => fetch('../coffees.json')
         
       },
     ]
