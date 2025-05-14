@@ -1,12 +1,39 @@
-# React + Vite
+# ☕ Coffee_Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Coffee_Store** is a responsive, modern coffee listing web application built with **React**, **Tailwind CSS**, and **React Router**. It lets users explore various coffee options, view detailed information, and manage their favorite coffees.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **View Coffee Details**  
+  Click on any coffee card to see detailed information including origin, type, and flavor profile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ❤️ **Add to Favorites**  
+  Easily mark your favorite coffees and keep track of them in a separate favorites section.
+
+- ❌ **Delete Favorite**  
+  Remove coffees from your favorites list with a single click.
+
+- ☕ **Coffee Categories**  
+  Browse through 3 unique categories of coffee:
+  - **Espresso**
+  - **Latte**
+  - **Cappuccino**
+
+---
+
+## 🛠️ Built With
+
+- **React** - Frontend library for building UI
+- **React Router DOM** - Routing and navigation
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **JavaScript (ES6)** - Modern JavaScript syntax
+- **HTML5** - Semantic markup
+
+---
+
+## 📁 Folder Structure
+
+```bash
+Coffee_Store/
