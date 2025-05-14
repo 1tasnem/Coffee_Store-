@@ -17,9 +17,9 @@
 
 - ☕ **Coffee Categories**  
   Browse through 3 unique categories of coffee:
-  - **Espresso**
-  - **Latte**
-  - **Cappuccino**
+  - **Brewed Coffee**
+  - **Iced Coffee**
+  - **Dessert Coffee**
 
 ---
 
