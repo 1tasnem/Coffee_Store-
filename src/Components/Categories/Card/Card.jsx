@@ -1,6 +1,10 @@
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink, useLocation } from 'react-router';
+import { FaRegTrashAlt } from "react-icons/fa";
 
-const Card = ({coffee})=> {
+
+const Card = ({coffee,handleRemove})=> {
+    const location = useLocation();
+const { pathname } = location;
     const {name,image ,id,category,origin,rating,type,popularity} = coffee ||  {}
    // console.log(name)
     return (
@@ -27,6 +31,7 @@ const Card = ({coffee})=> {
 
 
             </Link>
+            {pathname === '/dashboard' && (<div onClick={()=>handleRemove(id)} className='flex font-bold justify-center bg-white rounded-full p-1 shadow-md cursor-pointer hover:bg-red-500 hover:text-white transition'><FaRegTrashAlt size={20} />Delete</div>)}
         </div>
     );
 };
