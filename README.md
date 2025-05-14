@@ -1,7 +1,7 @@
 # ☕ Coffee_Store
 
 **Coffee_Store** is a responsive, modern coffee listing web application built with **React**, **Tailwind CSS**, and **React Router**. It lets users explore various coffee options, view detailed information, and manage their favorite coffees.
-
+Live link:storeofcoffee.netlify.app
 ---
 
 ## 🚀 Features
